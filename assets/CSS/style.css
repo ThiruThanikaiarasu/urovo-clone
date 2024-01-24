@@ -113,7 +113,7 @@ main {
 
     ul li label {
         font-size: 1.5rem;
-        width: 25%; 
+        width: 45%; 
         text-align: left;
         padding-right: 1em; 
     }
@@ -125,7 +125,7 @@ main {
     }
 
     ul li input {
-        width: 30%;
+        width: 70%;
         height: auto;
         padding: .15em .5em;
         font-size: 1.25rem;
@@ -134,7 +134,7 @@ main {
     }
 
     ul li button {
-        margin-left: .5em; 
+        margin-left: 1.25em; 
     }
 
     ul li span {
@@ -162,7 +162,7 @@ main {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: self-start;
+        align-items: center;
     }
 
     .scanning-process {
