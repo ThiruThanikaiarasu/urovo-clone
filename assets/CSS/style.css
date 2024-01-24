@@ -113,7 +113,7 @@ main {
 
     ul li label {
         font-size: 1.5rem;
-        width: 45%; 
+        width: 50%; 
         text-align: left;
         padding-right: 1em; 
     }
@@ -125,7 +125,7 @@ main {
     }
 
     ul li input {
-        width: 70%;
+        width: 83%;
         height: auto;
         padding: .15em .5em;
         font-size: 1.25rem;
@@ -134,7 +134,7 @@ main {
     }
 
     ul li button {
-        margin-left: 1.25em; 
+        margin-left: .75em; 
     }
 
     ul li span {
@@ -151,9 +151,9 @@ main {
     }
 
     .secondary-button {
-        margin-right: .25em;
+        margin-right: .15em;
         padding: .15em .5em;
-        font-size: 1.25rem;
+        font-size: .85rem;
         border-radius: .5em;
     }
 
