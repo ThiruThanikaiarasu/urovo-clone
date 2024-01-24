@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+header h2 {
+    padding: .5em .5em;
+    font-size: 3.5rem;
+    background-color: #3498db;
+     color: #fff;
+}
+
+.result-container {
+    padding: 0 1.5em;
+}
+
+ul li {
+    list-style: none;
+    padding: 1.25em 0;
+    display: flex;
+    align-items: center;
+}
+
+ul li label {
+    font-size: 2.5rem;
+    width: 50%; /* Adjust the width based on your needs */
+    text-align: left;
+    padding-right: 1em; /* Add some right padding for separation */
+}
+
+ul li div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+ul li input {
+    width: 60%;
+    padding: .15em .5em;
+    font-size: 2rem;
+    border: 1px solid black;
+    border-radius: .15em;
+}
+
+ul li button {
+    margin-left: 1em; /* Add some left margin for separation */
+}
+
+ul li span {
+    font-size: 2rem;
+}
+
+.primary-button {
+    margin-top: 1em; /* Add some top margin for separation */
+    padding: .5em 2em;
+    font-size: 2rem;
+    border-radius: .75em;
+    background-color: #53a675; 
+    color: #fff;
+}
+
+.secondary-button {
+    padding: .15em .5em;
+    font-size: 1.75rem;
+    border-radius: .5em;
+}
+
+.scanning-process {
+    margin-top: 1em; /* Add some top margin for separation */
+    text-align: center;
+    font-size: 2rem;
+    color: #e74c3c;
+}
+
+main {
+    padding: 1em 0; /* Add some padding to the main container */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
